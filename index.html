@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/bookmark-icon.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media-queries.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <title>Bookmark landing page</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#">
+          <img
+            width="149"
+            height="25"
+            src="./images/logo-bookmark.svg"
+            alt="logo"
+          />
+        </a>
+
+        <ul class="nav-items">
+          <li>
+            <a href="#">FEATURES</a>
+          </li>
+          <li>
+            <a href="#">PRICING</a>
+          </li>
+          <li>
+            <a href="#">CONTACT</a>
+          </li>
+          <li>
+            <button>LOGIN</button>
+          </li>
+        </ul>
+
+        <img
+          class="icon-hamburger"
+          width="18"
+          height="15"
+          src="./images/icon-hamburger.svg"
+          alt="icon-hamburger"
+        />
+      </nav>
+      <div class="nav-mobile">
+        <div class="nav-mobile-head">
+          <img src="./images/bookmark-mobile.png" alt="logo" />
+          <img class="icon-close" width="14.85" height="14.85" src="./images/icon-close.svg" alt="icon-close">
+        </div>
+        <ul class="nav-mobile-items">
+          <li>FEATURES</li>
+          <li>PRICING</li>
+          <li>CONTACT</li>
+        </ul>
+        <button>LOGIN</button>
+        <div class="socials">
+          <img width="24" height="24" src="/images/icon-facebook.svg" alt="icon-facebook">
+          <img width="24" height="19" src="./images/icon-twitter.svg" alt="icon-twitter">
+        </div>
+      </div>
+    </header>
+
+    <div class="hero">
+      <div class="hero-txt">
+        <h1>A Simple Bookmark Manager</h1>
+        <p>
+          A clean and simple interface to organize your favourite websites. Open
+          a new browser tab and see your sites load instantly. Try it for free.
+        </p>
+        <div class="hero-btns">
+          <button class="btn-1">Get it on Chrome</button>
+          <button class="btn-2">Get it on Firefox</button>
+        </div>
+      </div>
+      <img
+        class="hero-image"
+        width="579"
+        height="386"
+        src="./images/illustration-hero.svg"
+        alt="illustration-hero"
+      />
+      <img class="oblong" src="./images/hero-oblong.png" alt="hero" />
+    </div>
+
+    <div class="features">
+      <div class="features-txt">
+        <h2>Features</h2>
+        <p>
+          Our aim is to make it quick and easy for you to access your favourite
+          websites. Your bookmarks sync between your devices so you can access
+          them on the go.
+        </p>
+      </div>
+      <div class="tabbed-features">
+        <ul class="tabs">
+          <li id="bookmark" class="tab active">Simple Bookmarking</li>
+          <li id="search" class="tab">Speedy Searching</li>
+          <li id="share" class="tab">Easy Sharing</li>
+        </ul>
+
+        <ul class="tabs-mobile">
+          <li id="bookmark" class="tab active">Simple Bookmarking</li>
+          <li id="search" class="tab">Speedy Searching</li>
+          <li id="share" class="tab">Easy Sharing</li>
+        </ul>
+      </div>
+
+      <div class="feature-mobile bookmark">
+        <img width="311" height="201" src="./images/illustration-features-tab-1.svg" alt="bookmark" />
+        <div class="feature-mobile-txt">
+          <h4>Bookmark in one click</h4>
+
+          <p>
+            Organize your bookmarks however you like. Our simple drag-and-drop
+            interface gives you complete control over how you manage your
+            favourite sites.
+          </p>
+
+          <button>More Info</button>
+        </div>
+      </div>
+
+      <div class="feature-mobile search active">
+        <img width="278" height="216" src="./images/illustration-features-tab-2.svg" alt="bookmark" />
+        <div class="feature-mobile-txt">
+          <h4>Intelligent search</h4>
+
+          <p>
+            Our powerful search feature will help you find saved sites in no
+            time at all. No need to trawl through all of your bookmarks.
+          </p>
+
+          <button>More Info</button>
+        </div>
+      </div>
+
+      <div class="feature-mobile share">
+        <img width="278" height="216" src="./images/illustration-features-tab-3.svg" alt="bookmark" />
+        <div class="feature-mobile-txt">
+          <h4>Share your bookmarks</h4>
+
+          <p>
+            Easily share your bookmarks and collections with others. Create a
+            shareable link that you can send at the click of a button.
+          </p>
+
+          <button>More Info</button>
+        </div>
+      </div>
+
+      <div class="feature bookmark active">
+        <img src="./images/illustration-features-tab-1.svg" alt="bookmark" />
+        <div class="feature-txt">
+          <h4>Bookmark in one click</h4>
+
+          <p>
+            Organize your bookmarks however you like. Our simple drag-and-drop
+            interface gives you complete control over how you manage your
+            favourite sites.
+          </p>
+
+          <button>More Info</button>
+        </div>
+      </div>
+
+      <div class="feature search">
+        <img
+          width="478"
+          height="416"
+          src="./images/illustration-features-tab-2.svg"
+          alt="search"
+        />
+        <div class="feature-txt">
+          <h4>Intelligent search</h4>
+
+          <p>
+            Our powerful search feature will help you find saved sites in no
+            time at all. No need to trawl through all of your bookmarks.
+          </p>
+
+          <button>More Info</button>
+        </div>
+      </div>
+
+      <div class="feature share">
+        <img
+          width="478"
+          height="416"
+          src="./images/illustration-features-tab-3.svg"
+          alt="search"
+        />
+        <div class="feature-txt">
+          <h4>Share your bookmarks</h4>
+
+          <p>
+            Easily share your bookmarks and collections with others. Create a
+            shareable link that you can send at the click of a button.
+          </p>
+
+          <button>More Info</button>
+        </div>
+      </div>
+      <img
+        class="feature-oblong"
+        src="./images/features-oblong.png"
+        alt="oblong"
+      />
+    </div>
+
+    <div class="download">
+      <div class="download-txt">
+        <h2>Download the extension</h2>
+        <p>
+          We’ve got more browsers in the pipeline. Please do let us know if
+          you’ve got a favourite you’d like us to prioritize.
+        </p>
+      </div>
+      <div class="download-browsers">
+        <div class="browser">
+          <img
+            width="102"
+            height="100"
+            src="./images/logo-chrome.svg"
+            alt="chrome"
+          />
+          <h4>Add to Chrome</h4>
+          <span>Minimum version 62</span>
+          <img src="./images/bg-dots.svg" alt="" />
+          <button>Add & Install Extension</button>
+        </div>
+
+        <div class="browser firefox">
+          <img
+            width="105"
+            height="100"
+            src="./images/logo-firefox.svg"
+            alt="chrome"
+          />
+          <h4>Add to Firefox</h4>
+          <span>Minimum version 55</span>
+          <img src="./images/bg-dots.svg" alt="" />
+          <button>Add & Install Extension</button>
+        </div>
+
+        <div class="browser opera">
+          <img
+            width="96"
+            height="100"
+            src="./images/logo-opera.svg"
+            alt="chrome"
+          />
+          <h4>Add to Opera</h4>
+          <span>Minimum version 46</span>
+          <img src="./images/bg-dots.svg" alt="" />
+          <button>Add & Install Extension</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="faq-txt">
+        <h2>Frequently Asked Questions</h2>
+        <p>
+          Here are some of our FAQs. If you have any other questions you'd like
+          answered please feel free to email us.
+        </p>
+      </div>
+
+      <div class="faq-accordion">
+        <div class="accordion-item">
+          <div class="accordion-heading">
+            <h4>What is Bookmark?</h4>
+            <i id="arrow" class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="accordion-content collapsed">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum
+            quis quam ornare mattis.
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-heading">
+            <h4>How can I request a new browser?</h4>
+            <i id="arrow" class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="accordion-content collapsed">
+            Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+            ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros
+            aliquet convallis ultricies. Mauris augue massa, ultricies non
+            ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis
+            ultricies. Mauris augue massa, ultricies non ligula. Suspendisse
+            imperdiet.
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-heading">
+            <h4>Is there a mobile app?</h4>
+            <i id="arrow" class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="accordion-content collapsed">
+            Sed consectetur quam id neque fermentum accumsan. Praesent luctus
+            vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula
+            quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin
+            ex et ultricies bibendum.
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <div class="accordion-heading">
+            <h4>What about other Chromium browsers?</h4>
+            <i id="arrow" class="ri-arrow-down-s-line"></i>
+          </div>
+          <div id="accordion4" class="accordion-content collapsed">
+            Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat
+            mi, at euismod dui. Aliquam vitae neque eget nisl gravida
+            pellentesque non ut velit.
+          </div>
+        </div>
+
+        <button class="more-info-btn">More Info</button>
+      </div>
+    </div>
+    <div class="contact">
+      <p>35,000+ ALREADY JOINED</p>
+      <h1>
+        Stay up-to-date with what <br />
+        we’re doing
+      </h1>
+      <div class="form">
+        <input type="email" placeholder="Enter your email address" />
+        <button>Contact Us</button>
+      </div>
+    </div>
+    <footer>
+      <img width="148" height="25" src="./images/footer-logo.png" alt="" />
+
+      <ul class="footer-items">
+        <li>
+          <a href="#">FEATURES</a>
+        </li>
+        <li>
+          <a href="#">PRICING</a>
+        </li>
+        <li>
+          <a href="#">CONTACT</a>
+        </li>
+      </ul>
+
+      <div class="socials">
+        <img src="images/icon-facebook.svg" alt="icon-facebook" />
+        <img src="./images/icon-twitter.svg" alt="icon-twitter" />
+      </div>
+    </footer>
+    <!-- 
+  Features
+  Pricing
+  Contact
+  Login
+
+  A Simple Bookmark Manager
+
+  A clean and simple interface to organize your favourite websites. Open a new 
+  browser tab and see your sites load instantly. Try it for free.
+
+  Get it on Chrome
+  Get it on Firefox
+
+  Features
+
+  Our aim is to make it quick and easy for you to access your favourite websites. 
+  Your bookmarks sync between your devices so you can access them on the go.
+
+  Simple Bookmarking
+  Speedy Searching
+  Easy Sharing
+
+  Bookmark in one click
+
+  Organize your bookmarks however you like. Our simple drag-and-drop interface 
+  gives you complete control over how you manage your favourite sites.
+
+  More Info
+
+  Intelligent search
+
+  Our powerful search feature will help you find saved sites in no time at all. 
+  No need to trawl through all of your bookmarks.
+
+  More Info
+
+  Share your bookmarks
+
+  Easily share your bookmarks and collections with others. Create a shareable 
+  link that you can send at the click of a button.
+
+  More Info
+
+  Download the extension
+
+  We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+  got a favourite you’d like us to prioritize.
+
+  Add to Chrome
+  Minimum version 62
+  Add & Install Extension
+
+  Add to Firefox
+  Minimum version 55
+  Add & Install Extension
+
+  Add to Opera
+  Minimum version 46
+  Add & Install Extension
+
+  Frequently Asked Questions
+  
+  Here are some of our FAQs. If you have any other questions you’d like 
+  answered please feel free to email us.
+
+  Question 1
+  What is Bookmark?
+
+  Answer 1
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+  justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
+
+  Question 2
+  How can I request a new browser?
+
+  Answer 2
+  Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
+  Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, 
+  ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
+  Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
+
+  Question 3
+  Is there a mobile app?
+
+  Answer 3
+  Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
+  urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
+  sollicitudin ex et ultricies bibendum.
+
+  Question 4
+  What about other Chromium browsers?
+
+  Answer 4
+  Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
+  vitae neque eget nisl gravida pellentesque non ut velit.
+
+  More Info
+
+  35,000+ already joined
+
+  Stay up-to-date with what we’re doing
+
+  Contact Us
+
+  Features
+  Pricing
+  Contact -->
+
+    <script src="./script.js"></script>
+  </body>
+</html>
